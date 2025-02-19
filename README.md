@@ -44,12 +44,12 @@ Once you've updated your qna.yaml, use it with InstructLab to run your Q&A pipel
 Example:
 Here’s how your qna.yaml might look if you were using this README.md file:
 
-yaml
-Copy
+```yaml
 document:
   repo: https://github.com/rdwj/taxonomy_knowledge
   commit: e154ac7e02d7bde248b6be35f47490d1f3cf1045
   patterns:
     - README.md
+```
 
 This configuration will pull in the README.md file from the taxonomy_knowledge repository at the specified commit SHA, and the Q&A system will use the data in this file.
