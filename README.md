@@ -34,7 +34,7 @@ To get the full SHA for the file you want to reference:
 Go to the file in this repository (e.g., taxonomy_knowledge/readme.md).
 Open the file.
 
-Click the History button on the upper right part of the window.
+Click the History or Commits button on the upper right part of the window.
 
 Click on the "Copy" button next to the short SHA (visible to the right of each commit).
 Replace <FULL_SHA_OF_FILE> in the commit field with the full SHA you copied.
@@ -48,7 +48,7 @@ yaml
 Copy
 document:
   repo: https://github.com/rdwj/taxonomy_knowledge
-  commit: 
+  commit: e154ac7e02d7bde248b6be35f47490d1f3cf1045
   patterns:
     - README.md
 
